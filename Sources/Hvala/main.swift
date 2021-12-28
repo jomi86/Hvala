@@ -23,4 +23,4 @@ struct Hvala: Website {
 
 // This will generate your website using the built-in Foundation theme:
 try Hvala().publish(withTheme: .foundation,
-                    deployedUsing: .gitHub("jomi86.github.io/Hvala/", useSSH: false))
+                    deployedUsing: .gitHub("jomi86/Hvala", useSSH: false))

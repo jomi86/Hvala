@@ -1,7 +1,5 @@
 :root {
   --background-color: #fcfafa;
-  --primary-mcf-color: #275f45;
-  --secondary-mcf-color: #aeaeb2;
   --primary-color: #312f2f;
   --secondary-color: #aeaeb2;
   --divider-color: #e5e5ea;
@@ -28,10 +26,10 @@ body {
   display: flex;
   flex-direction: column;
   font-family:
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
+  ui-sans-serif,
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
   color: var(--primary-color);
   background-color: var(--background-color);
 }
@@ -47,27 +45,26 @@ header {
 
 #title {
   font-family:
-    sofia-pro,
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
+  sofia-pro,
+  ui-sans-serif,
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
   font-weight: bold;
   font-size: 2.5em;
-  color: var(primary-mcf-color);
 }
 
 #subtitle {
   font-family:
-    brandon-grotesque,
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
+  brandon-grotesque,
+  ui-sans-serif,
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
   font-weight: 500;
   font-style: italic;
   font-size: 0.95em;
-  color: var(--secondary-mcf-color);
+  color: var(--secondary-color);
   margin-bottom: 20px;
 }
 
@@ -84,11 +81,11 @@ nav {
 nav li {
   display: inline-block;
   font-family:
-    brandon-grotesque,
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
+  brandon-grotesque,
+  ui-sans-serif,
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
   font-weight: 500;
   font-size: 0.9em;
   color: var(--secondary-color);
@@ -111,20 +108,20 @@ a:link, a:hover, a:active, a:visited {
 }
 
 #item-list li {
-  text-align: left;
+  text-align: center;
   display: block;
   margin-bottom: 60px;
 }
 
 .item-title {
   font-family:
-    sofia-pro,
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
+  sofia-pro,
+  ui-sans-serif,
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 3.25em;
   line-height: 1;
   margin-bottom: 0.2em;
 }
@@ -136,11 +133,11 @@ a:link, a:hover, a:active, a:visited {
 
 .item-date {
   font-family:
-    sofia-pro,
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
+  sofia-pro,
+  ui-sans-serif,
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
   font-weight: 500;
   font-size: 0.85em;
   color: var(--secondary-color);
@@ -168,11 +165,11 @@ a:link, a:hover, a:active, a:visited {
 
 a.read-more {
   font-family:
-    sofia-pro,
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
+  sofia-pro,
+  ui-sans-serif,
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
   font-size: 0.85em;
   color: var(--secondary-color);
 }
@@ -279,12 +276,12 @@ a.read-more {
 #item-page-content h1 {
   text-align: center;
   font-family:
-    sofia-pro,
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
-  font-size: 2.8em;
+  sofia-pro,
+  ui-sans-serif,
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
+  font-size: 3.25em;
   line-height: 1;
   margin-bottom: 0.2em;
 }
@@ -314,8 +311,8 @@ a.read-more {
   BlinkMacSystemFont,
   sans-serif;
   font-weight: 500;
-  font-size: 0.95em;
-  color: var(--primary-color);
+  font-size: 0.85em;
+  color: var(--secondary-color);
   margin-bottom: 0.6em;
 }
 
@@ -364,11 +361,11 @@ a.read-more {
 
 footer p {
   font-family:
-    sofia-pro,
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
+  sofia-pro,
+  ui-sans-serif,
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
   font-size: 0.85em;
   padding-bottom: 40px;
 }

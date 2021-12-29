@@ -1,12 +1,11 @@
 import Foundation
 import Publish
 import Plot
+import SplashPublishPlugin
 
-// This type acts as the configuration for your website.
 struct Hvala: Website {
   enum SectionID: String, WebsiteSectionID {
-    // Add the sections that you want your website to contain here:
-    case posts
+    case doniraj, nauči, razno
   }
   
   struct ItemMetadata: WebsiteItemMetadata {
@@ -14,12 +13,22 @@ struct Hvala: Website {
   }
   
   // Update these properties to configure your website:
-  var url = URL(string: "https://your-website-url.com")!
+  var url = URL(string: "https://jomi86.github.io/Hvala/")!
   var name = "Hvala"
   var description = "Stranica sa linkovima koji puno znače"
-  var language: Language { .english }
-  var imagePath: Path? { nil }
+  var language: Language { .serbian }
+  var imagePath: Path? { "images/AppIcon.png" }
 }
 
 // This will generate your website using the built-in Foundation theme:
-try Hvala().publish(withTheme: .foundation)
+try Hvala().publish(withTheme: .default(
+  additionalStylesheetPaths: ["/apps.css"],
+  pagePaths: ["doniraj, nauci, razno"],
+  contentPagePaths: ["doniraj, nauci, razno"],
+  navigationLinks: [],
+  copyright: "Marko"
+), additionalSteps: [
+//  .addNewMarkdownFiles("doniraj")
+], plugins: [
+  .splash(withClassPrefix: "")
+])

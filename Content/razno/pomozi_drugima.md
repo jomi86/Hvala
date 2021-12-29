@@ -5,11 +5,11 @@ tags: pomoć
 ---
 # Pomozi drugima
 
+[Magična pošta Srbije](https://www.instagram.com/magical_mail_srbija/) - Udruženje koje magičnom poštom ulepšava dan deci sa smetnjama u razvoju uz pomoć ljudi širom Srbije.
+
 [Grad Beograd - akcija 'Ostani kod kuće'](https://ostanikodkuce.beograd.gov.rs)  
 
 [Volontiraj u Crvenom Krstu](https://www.redcross.org.rs/sr/javna-ovla%C5%A1%C4%87enja-i-programi-cks/organizacija-i-razvoj/volonteri/)  
-
-[Akcija 'Super Komša'](https://www.facebook.com/superkomsa/)  
 
 [Vlada Republike Srbije - 'Budi volonter'](https://www.budivolonter.gov.rs/)  
 

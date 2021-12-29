@@ -15,4 +15,8 @@ tags: nauči, korisno
 
 [Briga o prirodi - organizacija ORCA](https://orca.rs/)  
 
+[Radioaktivni komarac](https://www.facebook.com/radioaktivni.komarac) - Razne zanimljive vesti iz kulture  
+
+[Radio galaksija](https://www.facebook.com/radiogalaksija/) - Razne vesti i podkast iz sveta nauke 
+
 [Raskrinkavanje](https://www.facebook.com/raskrikavanje/) - Raskrikavanje ima za cilj borbu protiv medijskog dezinformisanja

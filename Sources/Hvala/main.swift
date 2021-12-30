@@ -21,14 +21,10 @@ struct Hvala: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
-try Hvala().publish(withTheme: .default(
-  additionalStylesheetPaths: ["/apps.css"],
-  pagePaths: ["doniraj, nauci, razno"],
-  contentPagePaths: ["doniraj, nauci, razno"],
-  navigationLinks: [],
-  copyright: "Marko"
-), additionalSteps: [
-//  .addNewMarkdownFiles("doniraj")
-], plugins: [
-  .splash(withClassPrefix: "")
+try Hvala().publish(using: [
+  .installPlugin(.splash(withClassPrefix: "")),
+  .addMarkdownFiles(),
+  .copyResources(),
+  .generateHTML(withTheme: .foundation),
+  .generateSiteMap(),
 ])

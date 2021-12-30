@@ -13,7 +13,7 @@ struct Hvala: Website {
   }
   
   // Update these properties to configure your website:
-  var url = URL(string: "https://jomi86.github.io/Hvala/")!
+  var url = URL(string: "https://jomi86.github.io/hvala/")!
   var name = "Hvala"
   var description = "Stranica sa linkovima koji puno znače"
   var language: Language { .serbian }

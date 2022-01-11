@@ -21,6 +21,7 @@ struct Hvala: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
+//try Hvala().publish(withTheme: .foundation)
 try Hvala().publish(using: [
   .installPlugin(.splash(withClassPrefix: "")),
   .addMarkdownFiles(),

@@ -22,10 +22,12 @@ struct Hvala: Website {
 
 // This will generate your website using the built-in Foundation theme:
 //try Hvala().publish(withTheme: .foundation)
-try Hvala().publish(using: [
-  .installPlugin(.splash(withClassPrefix: "")),
-  .addMarkdownFiles(),
-  .copyResources(),
-  .generateHTML(withTheme: .foundation),
-  .generateSiteMap(),
-])
+//try Hvala().publish(using: [
+//  .installPlugin(.splash(withClassPrefix: "")),
+//  .addMarkdownFiles(),
+//  .copyResources(),
+//  .generateHTML(withTheme: .foundation),
+//  .generateSiteMap(),
+//])
+
+try Hvala().publish(withTheme: .foundation, plugins: [.splash(withClassPrefix: "")])

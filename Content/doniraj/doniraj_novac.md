@@ -15,4 +15,6 @@ Humaniatrna organizacija ['Budi human'](https://www.budihuman.rs/)
 
 Fondacija ['Divac'](https://www.divac.com/donacije)  
 
+Fondacija ['Nataša Kovačević'](https://natasakovacevicfoundation.com/instrukcije-za-placanje/) - Pomoć teže povređenim i obolelim sportistima
+
 Platforma ['Srbija Daruje'](https://givingbalkans.org/srbija) - Regionalna fondacija posvećena izgradnji održivog filantropskog ekosistema u zemljama Zapadnog Balkana

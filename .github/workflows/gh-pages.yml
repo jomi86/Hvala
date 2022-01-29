@@ -7,7 +7,7 @@ on:
 
 jobs:
   gh-pages:
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     container:
       image: "swift:5.4"
     steps:

@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
   
     - name: Generate blog
-      run: swift run Blog
+      run: swift run
     - name: Publish in github pages repo
       uses: crazy-max/ghaction-github-pages@v1.4.0
       with:

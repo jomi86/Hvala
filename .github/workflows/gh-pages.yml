@@ -1,33 +1,28 @@
-name: Github Pages
+name: GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
-  build:
-    runs-on: macOS-latest
-
+  deploy:
+    runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v2
-  
-    - name: Generate blog
-      run: swift run
-    - name: Publish in github pages repo
-      uses: crazy-max/ghaction-github-pages@v1.4.0
-      with:
-        repo: jomi86/Hvala
-        target_branch: main
-        keep_history: true
-        allow_empty_commit: false
-        build_dir: Output
-        committer_name: jomi86
-        commit_message: Update blog content
-      env:
-        GITHUB_PAT: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        
-    - name: Add & Commit changes
-      uses: EndBug/add-and-commit@v4.0.1
-      with:
-        author_name: jomi86
-        message: Commit new output
+      - uses: actions/checkout@v2
+
+      - name: Setup JohnSundell/Publish
+        run: |
+          cd ${HOME}
+          git clone --depth=1 https://github.com/JohnSundell/Publish.git
+          cd ./Publish
+          swift build -c release
+          echo "::add-path::${HOME}/Publish/.build/release"
+
+      - run: publish-cli generate
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./Output

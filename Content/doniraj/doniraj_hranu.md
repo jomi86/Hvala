@@ -7,4 +7,6 @@ tags: donacije, hrana
 
 [Narodne kuhinje na KiM](http://narodnekuhinjekim.com/)  
 
-[Hrana za osmeh Beograda](https://www.facebook.com/groups/138339910917080/) - Ovo je grupa humanih ljudi koji su ovde sa dva cilja: da pomognu svim osetljivim kategorijama našeg društva i da pronađu one koji su u mogućnosti pomoć da daju!
+[Hrana za osmeh Beograda](https://www.facebook.com/groups/138339910917080/) - Ovo je grupa humanih ljudi koji su ovde sa dva cilja: da pomognu svim osetljivim kategorijama našeg društva i da pronađu one koji su u mogućnosti pomoć da daju!  
+
+[Zajednički frižider](https://www.instagram.com/zajednickifrizider) - Ostavi šta možeš, uzmi šta ti treba

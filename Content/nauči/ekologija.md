@@ -18,8 +18,12 @@ tags: ekologija
 [Šuma peva](https://www.facebook.com/%C5%A0uma-peva-1548585112069532/) - Pošumljavanje i podsticanje akcija za pošumljavanje.  
 [Sasvim Prirodno](https://www.facebook.com/JovanMemedovic) - Sasvim Prirodno je dokumentarno putopisni serijal o prirodi, životinjama i ljudima koji žive sa prirodom.  
 
-[Klimatske promene](https://www.klima101.rs/) - Sve što treba da znate o klimatskim  
+[Klimatske promene](https://www.klima101.rs/) - Sve što treba da znate o klimatskim promenama
  
 [Centar za unapređenje životne sredine](https://www.facebook.com/CUZSorg)
 
-[Razmena semena u Beogradu - 'Idi u peršun'](https://www.facebook.com/razmenasemena)
+[Razmena semena u Beogradu - 'Idi u peršun'](https://www.facebook.com/razmenasemena)  
+
+[Ne prljaj, nemaš izgovor](https://neprljajnemasizgovor.rs)
+
+[Biodivovi](https://www.instagram.com/biodivovi) - Inicijativa mladih za podizanje svesti i informisanosti u vezi sa ugroženošću biodiverziteta Srbije i uticaja klimatskih promena na isti

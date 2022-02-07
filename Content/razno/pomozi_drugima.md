@@ -23,6 +23,8 @@ tags: pomoć
 
 [LICEULICE](https://www.liceulice.org/) - LICEULICE je neprofitna organizacija posvećena podršci onima koji najteže dolaze do posla i koji žive na margini našeg društva.  
 
+[Superhero.rs](https://superhero.rs) - SUPERHERO platforma ima za cilj da unapredi kulturu doniranja i inspiriše vas da se osećate kao superheroji kada pomažete drugima.
+
 [Aplikacija 'SevApp'](https://sevapp.rs/) - Daruj ili potraži predmete ili usluge za sebe.  
 
 [Aplikacija 'BeMyEyes'](https://www.bemyeyes.com/) - Aplikaciji koja povezuje slijepe osobe s volonterima koji nemaju problema s vidom.  
